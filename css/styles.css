@@ -12,3 +12,55 @@ footer{
 
     background-color: rgb(244, 246, 251);
 }
+
+footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer-content .social-links a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    line-height: 30px;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+}
+
+.footer-content .social-links a:hover {
+    background-color: #555;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333; /* Cambia el color de los íconos si es necesario */
+}
+
+.social-links a:hover {
+    color: #555; /* Cambia el color al pasar el cursor por encima si es necesario */
+}
