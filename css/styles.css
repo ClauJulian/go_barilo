@@ -19,6 +19,10 @@ footer {
     text-align: center;
 }
 
+form {
+    display:none;
+}
+
 /* CLASES */
 .footer-content {
     max-width: 1200px;
@@ -64,4 +68,8 @@ footer {
 
 .social-links a:hover {
     color: #555; /* Cambia el color al pasar el cursor por encima si es necesario */
+}
+
+.listCommunity{
+    width:60%;
 }
