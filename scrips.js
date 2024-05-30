@@ -87,8 +87,8 @@ async function findUsers(page = 1, email, name) {
     
     let userFinded = base_data.find(data => data.email === email);
     if(!name || !email || !userFinded){
-        msg_form.innerHTML=`<p class="alert alert-danger" role="alert"> Nombre o Email incorrectos o inexistentes </p> `;
-        console.log("out")};
+        msg_form.innerHTML=`<div class="alert alert-danger" role="alert"> Nombre o Email incorrectos o inexistentes </div> `;}
+        //console.log("out")};
     if(userFinded.email === email && userFinded.first_name === name){window.location.href="community.html"};
 
 };
