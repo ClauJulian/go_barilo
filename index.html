@@ -19,19 +19,20 @@
           <a class="navbar-brand" href="#">GO BARILO</a>
         </div>
     </nav>
-    
-   
     <section>
         <div>
-          <button id="community" class="btn btn-info btn-lg">Comunidad Bariló</button>
+            <button id="community" class="btn btn-info btn-lg">Comunidad Bariló</button>
         </div>
+    </section>
+   
+    <section class="section_listCommunity">       
         <br>
         <div id="listData" class="listCommunity">
         </div>
     </section>
-    <section>
+    <section class="">
         <form  id="form">
-            <div class="row-cols-1 row-cols-md-2">
+            <div class="row-cols-1 row-cols-md-2 section_formLogin">
                 <div class="col mt-3">
                   <input type="text" id="name_form" class="form-control" name="name" placeholder="Nombre de Usuario" aria-label="First name">
                 </div>
@@ -41,18 +42,12 @@
                 <div class="d-grid gap-2 mt-3">
                     <input id="send_form" class="cj-btnForm btn" type="" value="Enviar" onclick="enterWeb()">
                 </div>
-        
-            </div>
-          
-            
+            </div>            
           </form>
     
-      <!-- Validacion Orador -->
-        <div id="msg_form"><p></p></div>
-        <div id="validaOradorNombre"><p></p></div>
-        <div id="validaOradorMail"><p></p></div>
+        <div id="msg_form"></div>
           
-        </section>
+    </section>
 
 
 

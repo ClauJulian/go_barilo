@@ -3,12 +3,23 @@
     padding:0px;
 }
 /* ETIQUETAS */
+nav{
+    width: 100vw;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 section{
     margin-top: 5rem;
 }
 footer{
     margin-top: 10rem;
     padding: 2rem 0rem 2rem 0rem;
+    width: 100vw;
 
     background-color: rgb(244, 246, 251);
 }
@@ -21,9 +32,21 @@ footer {
 
 form {
     display:none;
+    margin-bottom: 15vh;
 }
 
 /* CLASES */
+.section_listCommunity{
+    display: flex;
+    justify-content: center;
+    
+}
+.section_formLogin{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .footer-content {
     max-width: 1200px;
     margin: 0 auto;
