@@ -27,7 +27,7 @@ async function downloadData(page =1){
         //Message(msj)
 
         const users_data=response.data.data;
-        console.log(users_data);
+        //console.log(users_data);
         useData(users_data);
        
         
@@ -84,16 +84,12 @@ async function findUsers(page = 1, email, name) {
  }
 
  function confirmUser(email, name, base_data){
-    //console.log(name);
-    const userFinded = base_data.find(data => data.email === email);
-    //console.log("userFinded:", userFinded);
-
-    if (!userFinded || !email || !name){msg_form.innerHTML="Usuario o Email incorrecto.";};
-    if (userFinded.email === email && userFinded.first_name === name) {
-        window.location.href="index.html";     
-    }else{
-        msg_form.innerHTML="Usuario o Email incorrecto.";
-    }
+    
+    let userFinded = base_data.find(data => data.email === email);
+    if(!name || !email || !userFinded){
+        msg_form.innerHTML="Nombre o Email incorrectos o inexistentes";
+        console.log("out")};
+    if(userFinded.email === email && userFinded.first_name === name){window.location.href="index.html"};
 
 };
 
