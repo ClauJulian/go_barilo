@@ -25,7 +25,8 @@ footer{
 }
 
 footer {
-    background-color: #f8f8f8;
+    background-color: #176fa6;
+    color:#fff;
     padding: 20px 0;
     text-align: center;
 }
@@ -36,10 +37,22 @@ form {
 }
 
 /* CLASES */
+.index{    
+    /* background:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.6)),  url('/img/alojamiento/alojamientohotela.jpg');    
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
 .section_listCommunity{
     display: flex;
     justify-content: center;
     
+}
+.btnCommunity{
+    padding: 1em 2em 1em 2em;
+    border: 3px solid white;
+}
+.btnExit{
+    padding: 0em 2em 0em 2em;
 }
 .section_formLogin{
     width: 100vw;
@@ -92,7 +105,9 @@ form {
 .social-links a:hover {
     color: #555; /* Cambia el color al pasar el cursor por encima si es necesario */
 }
-
+.contact_info{
+    color:aliceblue;
+}
 .listCommunity{
     width:60%;
 }

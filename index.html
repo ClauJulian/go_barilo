@@ -13,15 +13,16 @@
     <title>Go Barilo</title>
 </head>
 
-<body class="container">
+<body class="container index">
     <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">GO BARILO</a>
         </div>
     </nav>
+    <main>
     <section>
         <div>
-            <button id="community" class="btn btn-info btn-lg">Comunidad Bariló</button>
+            <button id="community" class="btn btn-info btn-lg btnCommunity"><h3>Comunidad Bariló</h3></button>
         </div>
     </section>
    
@@ -40,25 +41,21 @@
                     <input type="email" id="email_form" class="form-control" name="email" placeholder="Email" aria-label="Email">
                 </div>
                 <div class="d-grid gap-2 mt-3">
-                    <input id="send_form" class="cj-btnForm btn" type="" value="Enviar" onclick="enterWeb()">
+                    <input id="send_form" class="cj-btnForm btn btn-info" type="button" value="Enviar" onclick="enterWeb()">
                 </div>
                 <div id="msg_form"></div>  
-            </div> 
-                     
-          </form>
-    
-        
-          
+            </div>                      
+          </form>      
     </section>
 
+    </main>
 
-
-    <footer>
+    <footer> 
         <div class="footer-content">
             <p>Información de contacto</p>
             <ul>
-                <li><a href="tel:+0294 4429850">0294 4429850</a></li>
-                <li><a href="barilo:info@example.com">gobarilo@gmail.com</a></li>
+                <li><a class="contact_info" href="">0294 4429850</a></li>
+                <li><a class="contact_info" href="">gobarilo@gmail.com</a></li>
             </ul>
             <div class="footer-content">
               <div class="social-links">
