@@ -6,6 +6,9 @@
 nav{
     width: 100vw;
 }
+main{
+    min-height: 80vh;
+}
 body{
     display: flex;
     flex-direction: column;
@@ -14,20 +17,15 @@ body{
 }
 
 section{
-    margin-top: 5rem;
-}
-footer{
-    margin-top: 10rem;
-    padding: 2rem 0rem 2rem 0rem;
-    width: 100vw;
-
-    background-color: rgb(244, 246, 251);
+    margin-top: 3rem;
 }
 
 footer {
+    margin-top: 10rem;
+    padding: 2rem;
+    width: 100vw;
     background-color: #176fa6;
     color:#fff;
-    padding: 20px 0;
     text-align: center;
 }
 
@@ -37,28 +35,37 @@ form {
 }
 
 /* CLASES */
+
 .index{    
-    /* background:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.6)),  url('/img/alojamiento/alojamientohotela.jpg');    
+    background:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.6)),  url('/img/imperdibles/example_imperdibles.jpg');    
     background-size: cover;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat; 
 }
 .section_listCommunity{
     display: flex;
     justify-content: center;
     
 }
+
 .btnCommunity{
     padding: 1em 2em 1em 2em;
-    border: 3px solid white;
+    border: 3px solid rgb(191, 231, 247);
+    color:white;
+}
+.btnCommunity:hover{
+    border: 3px solid rgb(35, 161, 199);
+    color:#195c82;
 }
 .btnExit{
     padding: 0em 2em 0em 2em;
 }
 .section_formLogin{
     width: 100vw;
+    padding: 2rem 4rem 2rem 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgba(35, 59, 95, 0.305);
 }
 .footer-content {
     max-width: 1200px;
